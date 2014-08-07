@@ -1,0 +1,46 @@
+########## Raw Data from Static Analysis ##########
+/==================================================\
+> adc: 11
+> add: 11
+> adiw: 37
+> and: 7
+> andi: 2
+> brcc: 4
+> brcs: 4
+> breq: 28
+> brge: 4
+> brlt: 8
+> brne: 25
+> call: 12
+> cli: 22
+> cp: 25
+> cpc: 30
+> cpi: 5
+> eor: 1
+> icall: 1
+> in: 57
+> jmp: 28
+> ld: 57
+> ldd: 427
+> ldi: 76
+> lds: 18
+> lpm: 1
+> mov: 4
+> movw: 132
+> or: 1
+> ori: 2
+> out: 66
+> pop: 46
+> push: 38
+> rcall: 7
+> ret: 19
+> rjmp: 45
+> sbc: 10
+> sbci: 2
+> sbiw: 52
+> st: 36
+> std: 240
+> sts: 16
+> sub: 9
+> subi: 3
+\==================================================/
