@@ -1,0 +1,20 @@
+######### Result from Gimple Tree Analysis #########
+/==================================================\
+> GimpleAssign Binary MinusExpr: 5
+> GimpleAssign Binary MultExpr: 11
+> GimpleAssign Binary PlusExpr: 12
+> GimpleAssign Binary PointerPlusExpr: 7
+> GimpleAssign Binary RdivExpr: 4
+> GimpleAssign Binary TruncModExpr: 1
+> GimpleAssign Constant IntegerCst: 7
+> GimpleAssign Constant RealCst: 4
+> GimpleAssign Declaration VarDecl: 14
+> GimpleAssign Reference MemRef: 9
+> GimpleAssign Tree Constructor: 6
+> GimpleAssign Unary FloatExpr: 2
+> GimpleAssign Unary NopExpr: 7
+> GimpleCall VlExp CallExpr: 19
+> GimpleCond Comparison LeExpr: 5
+> GimpleLabel VlExp CallExpr: 3
+> GimpleReturn: 9
+\==================================================/
