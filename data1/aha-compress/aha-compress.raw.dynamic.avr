@@ -1,0 +1,46 @@
+########## Raw Data from Dynamic Analysis ##########
+/==================================================\
+> adc: 6307
+> add: 3787
+> adiw: 650
+> and: 2596
+> andi: 475
+> bld: 18
+> breakpoint: 1
+> breq: 364
+> brge: 294
+> brne: 665
+> brpl: 3725
+> call: 77
+> cli: 146
+> com: 796
+> cp: 150
+> cpc: 727
+> cpi: 433
+> dec: 3725
+> eor: 6181
+> in: 298
+> jmp: 1
+> ldd: 24117
+> ldi: 1521
+> lpm: 216
+> lsr: 2588
+> mov: 756
+> movw: 2130
+> or: 860
+> ori: 2
+> out: 441
+> pop: 150
+> push: 152
+> rcall: 1
+> ret: 75
+> rjmp: 1034
+> ror: 6116
+> sbci: 396
+> sbiw: 741
+> sbrc: 72
+> set: 18
+> st: 216
+> std: 11647
+> subi: 396
+\==================================================/

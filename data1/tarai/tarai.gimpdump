@@ -1,0 +1,12 @@
+######### Result from Gimple Tree Analysis #########
+/==================================================\
+> GimpleAssign Binary PlusExpr: 4
+> GimpleAssign Constant IntegerCst: 3
+> GimpleAssign Declaration ParmDecl: 5
+> GimpleAssign Declaration VarDecl: 2
+> GimpleCall VlExp CallExpr: 8
+> GimpleCond Comparison GtExpr: 1
+> GimpleCond Comparison LeExpr: 2
+> GimpleLabel VlExp CallExpr: 3
+> GimpleReturn: 3
+\==================================================/

@@ -1,0 +1,28 @@
+########## Raw Data from Dynamic Analysis ##########
+/==================================================\
+> adiw: 1
+> andi: 1
+> breakpoint: 1
+> brge: 2
+> call: 6
+> cli: 2
+> cp: 2
+> cpc: 2
+> eor: 1
+> in: 12
+> jmp: 1
+> ldd: 95
+> ldi: 83
+> movw: 311
+> ori: 2
+> out: 9
+> pop: 8
+> push: 10
+> rcall: 1
+> ret: 4
+> rjmp: 1
+> sbc: 1
+> sbci: 188
+> std: 260
+> subi: 189
+\==================================================/
