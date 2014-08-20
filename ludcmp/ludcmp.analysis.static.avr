@@ -1,9 +1,0 @@
-############ Data from Static Analysis ############
-/==================================================\
-> ALU operations: 669
-> Data movement: 255
-> Memory: 558
-> Control Flow: 258
-> Miscellaneous: 0
-* Number of segments not categorised: 0
-\==================================================/
