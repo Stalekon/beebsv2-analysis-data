@@ -166,4 +166,4 @@ plt.subplots_adjust(left=0.04, bottom=0.20, right=0.84, top=0.97)
 
 plt.savefig('gimple_analysis.png')
 
-plt.show()
+#plt.show()
