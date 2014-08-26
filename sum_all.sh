@@ -1,9 +1,9 @@
 #!/bin/bash
 
-for dir in ./*
+for dir in ./data2/*
 do
 	[ -d "${dir}" ] || continue
 	name="${dir##*/}"
 	#echo $dir/*
-	./sum_stuff.py $dir/* $dir/${name}-combined.gimpdump
+	./sum_stuff.py $dir/*.gimpdump $dir/${name}-combined.gimpdump
 done
