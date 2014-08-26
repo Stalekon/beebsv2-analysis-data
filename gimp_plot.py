@@ -153,7 +153,8 @@ for b in bars:
 	b = b[0]
 
 #Various graph formating
-plt.legend(bars , legend_strings, loc='center left', bbox_to_anchor=(1, 0.5))
+plt.legend(bars , legend_strings, loc='center left', bbox_to_anchor=(1, 0.5),
+	title="Groups of Statements")
 
 plt.xticks(ind+width/2., bench_names, rotation=90)
 plt.ylabel("Percentage of gimple statements")
