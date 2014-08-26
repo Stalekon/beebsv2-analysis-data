@@ -101,10 +101,11 @@ for b in bars:
 	b = b[0]
 
 #Various graph formating
-plt.legend(bars , edge_legend, loc='center left', bbox_to_anchor=(1, 0.5))
+plt.legend(bars , edge_legend, loc='center left', bbox_to_anchor=(1, 0.5),
+	title="Basic Blocks with:")
 
 plt.xticks(ind+width/2., bench_names, rotation=90)
-plt.ylabel("Percentage of gimple statements")
+plt.ylabel("Percentage of basic blocks")
 
 plt.axis('tight')
 
