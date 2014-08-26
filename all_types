@@ -1,0 +1,74 @@
+Logic and Shifts:
+> GimpleAssign Binary BitAndExpr
+> GimpleAssign Binary BitIorExpr
+> GimpleAssign Binary BitXorExpr
+> GimpleAssign Unary BitNotExpr
+> GimpleAssign Binary LshiftExpr
+> GimpleAssign Binary RshiftExpr
+> GimpleAssign Binary RrotateExpr
+
+Regular Arithmetic:
+> GimpleAssign Binary MinusExpr
+> GimpleAssign Binary PlusExpr
+> GimpleAssign Binary PointerPlusExpr
+> GimpleAssign Binary MultExpr
+> GimpleAssign Binary ExactDivExpr
+> GimpleAssign Binary RdivExpr
+> GimpleAssign Binary TruncDivExpr
+> GimpleAssign Binary TruncModExpr
+> GimpleAssign Unary AbsExpr
+> GimpleAssign Unary NegateExpr
+> GimpleAssign Binary MaxExpr
+> GimpleAssign Binary MinExpr
+
+Assignments of value:
+> GimpleAssign Constant IntegerCst
+> GimpleAssign Constant RealCst
+> GimpleAssign Constant StringCst
+> GimpleAssign Declaration ParmDecl
+> GimpleAssign Declaration VarDecl
+
+Type Conversions:
+> GimpleAssign Unary ConvertExpr
+> GimpleAssign Unary FloatExpr
+> GimpleAssign Unary FixTruncExpr
+
+Comparisons:
+> GimpleAssign Comparison EqExpr
+> GimpleAssign Comparison GeExpr
+> GimpleAssign Comparison GtExpr
+> GimpleAssign Comparison LeExpr
+> GimpleAssign Comparison LtExpr
+> GimpleAssign Comparison NeExpr
+> GimpleCond Comparison EqExpr
+> GimpleCond Comparison GeExpr
+> GimpleCond Comparison GtExpr
+> GimpleCond Comparison LeExpr
+> GimpleCond Comparison LtExpr
+> GimpleCond Comparison NeExpr
+
+Branch:
+> GimpleCond Comparison EqExpr
+> GimpleCond Comparison GeExpr
+> GimpleCond Comparison GtExpr
+> GimpleCond Comparison LeExpr
+> GimpleCond Comparison LtExpr
+> GimpleCond Comparison NeExpr
+> GimpleSwitch VlExp CallExpr
+> GimpleCall VlExp CallExpr
+> GimpleReturn
+
+Memory referencing:
+> GimpleAssign Expression AddrExpr # Get address of var
+> GimpleAssign Reference ArrayRef
+> GimpleAssign Reference ComponentRef
+> GimpleAssign Reference MemRef
+
+Other:
+> GimpleAssign Tree Constructor # example gimple in ={v} {CLOBBER};
+
+
+*Ignored:
+> GimpleLabel VlExp CallExpr
+> GimplePredict # all statements seem to be "// predicted unlikely by continue predictor."
+> GimpleAssign Unary NopExpr # usually type casts that dont involve any operations (int>long int)
