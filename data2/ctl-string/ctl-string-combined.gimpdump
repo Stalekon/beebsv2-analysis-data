@@ -1,0 +1,46 @@
+######### Result from Gimple Tree Analysis #########
+/==================================================\
+> GimpleAssign Binary MinusExpr: 14
+> GimpleAssign Binary MultExpr: 7
+> GimpleAssign Binary PlusExpr: 24
+> GimpleAssign Binary PointerPlusExpr: 24
+> GimpleAssign Binary TruncDivExpr: 4
+> GimpleAssign Constant IntegerCst: 61
+> GimpleAssign Declaration ParmDecl: 3
+> GimpleAssign Declaration VarDecl: 31
+> GimpleAssign Reference ComponentRef: 96
+> GimpleAssign Reference MemRef: 10
+> GimpleAssign Unary ConvertExpr: 10
+> GimpleAssign Unary FixTruncExpr: 3
+> GimpleAssign Unary FloatExpr: 6
+> GimpleAssign Unary NopExpr: 19
+> GimpleCall VlExp CallExpr: 51
+> GimpleCond Comparison EqExpr: 15
+> GimpleCond Comparison GeExpr: 1
+> GimpleCond Comparison GtExpr: 1
+> GimpleCond Comparison LeExpr: 9
+> GimpleCond Comparison LtExpr: 3
+> GimpleCond Comparison NeExpr: 4
+> GimpleLabel VlExp CallExpr: 20
+> GimpleReturn: 21
+* Basic blocks with this many edges: 0; Count: 21
+* Basic blocks with this many edges: 1; Count: 98
+* Basic blocks with this many edges: 2; Count: 33
+* Basic blocks with this many edges: more than 2 ; Count: 0
++ Basic blocks with this many statments: 0; Count: 42
++ Basic blocks with this many statments: 1; Count: 11
++ Basic blocks with this many statments: 2; Count: 49
++ Basic blocks with this many statments: 3; Count: 8
++ Basic blocks with this many statments: 4; Count: 9
++ Basic blocks with this many statments: 5; Count: 11
++ Basic blocks with this many statments: 6; Count: 4
++ Basic blocks with this many statments: 7; Count: 5
++ Basic blocks with this many statments: 8; Count: 2
++ Basic blocks with this many statments: 9; Count: 2
++ Basic blocks with this many statments: 10; Count: 2
++ Basic blocks with this many statments: 12; Count: 2
++ Basic blocks with this many statments: 13; Count: 2
++ Basic blocks with this many statments: 15; Count: 1
++ Basic blocks with this many statments: 16; Count: 1
++ Basic blocks with this many statments: 19; Count: 1
+\==================================================/

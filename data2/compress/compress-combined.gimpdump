@@ -1,0 +1,50 @@
+######### Result from Gimple Tree Analysis #########
+/==================================================\
+> GimpleAssign Binary BitAndExpr: 3
+> GimpleAssign Binary BitIorExpr: 1
+> GimpleAssign Binary BitXorExpr: 1
+> GimpleAssign Binary LshiftExpr: 9
+> GimpleAssign Binary MinusExpr: 5
+> GimpleAssign Binary MultExpr: 2
+> GimpleAssign Binary PlusExpr: 30
+> GimpleAssign Binary PointerPlusExpr: 27
+> GimpleAssign Binary RshiftExpr: 4
+> GimpleAssign Binary TruncDivExpr: 4
+> GimpleAssign Constant IntegerCst: 32
+> GimpleAssign Declaration VarDecl: 111
+> GimpleAssign Expression AddrExpr: 4
+> GimpleAssign Reference ArrayRef: 8
+> GimpleAssign Reference MemRef: 4
+> GimpleAssign Unary ConvertExpr: 8
+> GimpleAssign Unary NopExpr: 26
+> GimpleCall VlExp CallExpr: 13
+> GimpleCond Comparison EqExpr: 6
+> GimpleCond Comparison GeExpr: 3
+> GimpleCond Comparison GtExpr: 13
+> GimpleCond Comparison LeExpr: 4
+> GimpleCond Comparison LtExpr: 5
+> GimpleCond Comparison NeExpr: 5
+> GimpleLabel VlExp CallExpr: 5
+> GimplePredict: 2
+> GimpleReturn: 8
+* Basic blocks with this many edges: 0; Count: 8
+* Basic blocks with this many edges: 1; Count: 58
+* Basic blocks with this many edges: 2; Count: 36
+* Basic blocks with this many edges: more than 2 ; Count: 0
++ Basic blocks with this many statments: 0; Count: 21
++ Basic blocks with this many statments: 1; Count: 22
++ Basic blocks with this many statments: 2; Count: 18
++ Basic blocks with this many statments: 3; Count: 9
++ Basic blocks with this many statments: 4; Count: 7
++ Basic blocks with this many statments: 5; Count: 6
++ Basic blocks with this many statments: 6; Count: 4
++ Basic blocks with this many statments: 7; Count: 5
++ Basic blocks with this many statments: 8; Count: 3
++ Basic blocks with this many statments: 9; Count: 1
++ Basic blocks with this many statments: 10; Count: 1
++ Basic blocks with this many statments: 11; Count: 1
++ Basic blocks with this many statments: 15; Count: 1
++ Basic blocks with this many statments: 16; Count: 1
++ Basic blocks with this many statments: 21; Count: 1
++ Basic blocks with this many statments: 35; Count: 1
+\==================================================/

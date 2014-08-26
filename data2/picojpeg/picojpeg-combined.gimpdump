@@ -1,0 +1,69 @@
+######### Result from Gimple Tree Analysis #########
+/==================================================\
+> GimpleAssign Binary BitAndExpr: 16
+> GimpleAssign Binary BitIorExpr: 19
+> GimpleAssign Binary LshiftExpr: 10
+> GimpleAssign Binary MinExpr: 1
+> GimpleAssign Binary MinusExpr: 44
+> GimpleAssign Binary MultExpr: 49
+> GimpleAssign Binary PlusExpr: 189
+> GimpleAssign Binary PointerPlusExpr: 156
+> GimpleAssign Binary RshiftExpr: 60
+> GimpleAssign Constant IntegerCst: 245
+> GimpleAssign Declaration ParmDecl: 5
+> GimpleAssign Declaration VarDecl: 407
+> GimpleAssign Expression AddrExpr: 33
+> GimpleAssign Reference ArrayRef: 73
+> GimpleAssign Reference MemRef: 82
+> GimpleAssign Tree Constructor: 5
+> GimpleAssign Unary BitNotExpr: 1
+> GimpleAssign Unary ConvertExpr: 90
+> GimpleAssign Unary NegateExpr: 1
+> GimpleAssign Unary NopExpr: 661
+> GimpleCall VlExp CallExpr: 224
+> GimpleCond Comparison EqExpr: 44
+> GimpleCond Comparison GeExpr: 1
+> GimpleCond Comparison GtExpr: 21
+> GimpleCond Comparison LeExpr: 26
+> GimpleCond Comparison LtExpr: 15
+> GimpleCond Comparison NeExpr: 80
+> GimpleLabel VlExp CallExpr: 151
+> GimpleReturn: 61
+> GimpleSwitch VlExp CallExpr: 16
+* Basic blocks with this many edges: 0; Count: 61
+* Basic blocks with this many edges: 1; Count: 495
+* Basic blocks with this many edges: 2; Count: 187
+* Basic blocks with this many edges: more than 2 ; Count: 16
++ Basic blocks with this many statments: 0; Count: 141
++ Basic blocks with this many statments: 1; Count: 229
++ Basic blocks with this many statments: 2; Count: 216
++ Basic blocks with this many statments: 3; Count: 45
++ Basic blocks with this many statments: 4; Count: 28
++ Basic blocks with this many statments: 5; Count: 21
++ Basic blocks with this many statments: 6; Count: 10
++ Basic blocks with this many statments: 7; Count: 3
++ Basic blocks with this many statments: 8; Count: 16
++ Basic blocks with this many statments: 9; Count: 2
++ Basic blocks with this many statments: 10; Count: 3
++ Basic blocks with this many statments: 11; Count: 4
++ Basic blocks with this many statments: 12; Count: 3
++ Basic blocks with this many statments: 13; Count: 3
++ Basic blocks with this many statments: 15; Count: 5
++ Basic blocks with this many statments: 16; Count: 1
++ Basic blocks with this many statments: 17; Count: 1
++ Basic blocks with this many statments: 18; Count: 2
++ Basic blocks with this many statments: 19; Count: 1
++ Basic blocks with this many statments: 20; Count: 1
++ Basic blocks with this many statments: 21; Count: 2
++ Basic blocks with this many statments: 25; Count: 2
++ Basic blocks with this many statments: 26; Count: 1
++ Basic blocks with this many statments: 27; Count: 1
++ Basic blocks with this many statments: 29; Count: 1
++ Basic blocks with this many statments: 32; Count: 3
++ Basic blocks with this many statments: 35; Count: 4
++ Basic blocks with this many statments: 46; Count: 4
++ Basic blocks with this many statments: 55; Count: 2
++ Basic blocks with this many statments: 74; Count: 2
++ Basic blocks with this many statments: 149; Count: 1
++ Basic blocks with this many statments: 213; Count: 1
+\==================================================/

@@ -1,0 +1,44 @@
+######### Result from Gimple Tree Analysis #########
+/==================================================\
+> GimpleAssign Binary BitAndExpr: 1
+> GimpleAssign Binary MinusExpr: 9
+> GimpleAssign Binary MultExpr: 40
+> GimpleAssign Binary PlusExpr: 23
+> GimpleAssign Binary PointerPlusExpr: 3
+> GimpleAssign Binary RdivExpr: 7
+> GimpleAssign Binary TruncDivExpr: 1
+> GimpleAssign Constant IntegerCst: 12
+> GimpleAssign Constant RealCst: 5
+> GimpleAssign Declaration ParmDecl: 4
+> GimpleAssign Declaration VarDecl: 29
+> GimpleAssign Reference ArrayRef: 8
+> GimpleAssign Reference MemRef: 3
+> GimpleAssign Unary FloatExpr: 9
+> GimpleAssign Unary NegateExpr: 3
+> GimpleAssign Unary NopExpr: 25
+> GimpleCall VlExp CallExpr: 17
+> GimpleCond Comparison EqExpr: 3
+> GimpleCond Comparison GeExpr: 2
+> GimpleCond Comparison GtExpr: 3
+> GimpleCond Comparison LeExpr: 7
+> GimpleCond Comparison LtExpr: 1
+> GimpleLabel VlExp CallExpr: 8
+> GimpleReturn: 9
+* Basic blocks with this many edges: 0; Count: 9
+* Basic blocks with this many edges: 1; Count: 55
+* Basic blocks with this many edges: 2; Count: 16
+* Basic blocks with this many edges: more than 2 ; Count: 0
++ Basic blocks with this many statments: 0; Count: 20
++ Basic blocks with this many statments: 1; Count: 25
++ Basic blocks with this many statments: 2; Count: 14
++ Basic blocks with this many statments: 3; Count: 4
++ Basic blocks with this many statments: 4; Count: 2
++ Basic blocks with this many statments: 5; Count: 2
++ Basic blocks with this many statments: 7; Count: 1
++ Basic blocks with this many statments: 8; Count: 4
++ Basic blocks with this many statments: 9; Count: 1
++ Basic blocks with this many statments: 12; Count: 1
++ Basic blocks with this many statments: 14; Count: 2
++ Basic blocks with this many statments: 15; Count: 3
++ Basic blocks with this many statments: 16; Count: 1
+\==================================================/

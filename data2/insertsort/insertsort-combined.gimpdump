@@ -1,0 +1,24 @@
+######### Result from Gimple Tree Analysis #########
+/==================================================\
+> GimpleAssign Binary PlusExpr: 6
+> GimpleAssign Constant IntegerCst: 14
+> GimpleAssign Declaration VarDecl: 3
+> GimpleAssign Reference ArrayRef: 4
+> GimpleAssign Unary NopExpr: 2
+> GimpleCall VlExp CallExpr: 4
+> GimpleCond Comparison LeExpr: 2
+> GimpleCond Comparison LtExpr: 1
+> GimpleLabel VlExp CallExpr: 1
+> GimpleReturn: 2
+* Basic blocks with this many edges: 0; Count: 2
+* Basic blocks with this many edges: 1; Count: 11
+* Basic blocks with this many edges: 2; Count: 3
+* Basic blocks with this many edges: more than 2 ; Count: 0
++ Basic blocks with this many statments: 0; Count: 4
++ Basic blocks with this many statments: 1; Count: 5
++ Basic blocks with this many statments: 2; Count: 3
++ Basic blocks with this many statments: 3; Count: 1
++ Basic blocks with this many statments: 4; Count: 1
++ Basic blocks with this many statments: 9; Count: 1
++ Basic blocks with this many statments: 12; Count: 1
+\==================================================/
