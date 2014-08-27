@@ -7,6 +7,11 @@ import numpy as np
 #USAGE: You have to pass this script all *-combined.gimpdump files
 #for all benchmarks as arguments.
 
+#This script can also be used to analyse the runtime
+#data as it is saved in the same format.
+output_filename = 'avr_dynamic_analysis.png'
+
+
 #To store the data about the bechmarks
 #['name',types_dict,total_stmts_count,ignored_stmts_count]
 bench_data = []
@@ -112,6 +117,6 @@ plt.axis('tight')
 #current figsize but might need adjusting if changed.
 plt.subplots_adjust(left=0.04, bottom=0.20, right=0.84, top=0.97)
 
-plt.savefig('avr_static_analysis.png')
+plt.savefig(output_filename)
 
 #plt.show()
