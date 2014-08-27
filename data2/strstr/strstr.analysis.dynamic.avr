@@ -1,0 +1,9 @@
+############ Data from Dynamic Analysis ############
+/==================================================\
+> ALU operations: 707
+> Data movement: 517
+> Memory: 2506
+> Control Flow: 387
+> Miscellaneous: 12
+* Number of segments not categorised: 1
+\==================================================/
