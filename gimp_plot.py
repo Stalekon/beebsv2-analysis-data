@@ -132,7 +132,7 @@ for bench in bench_data:
 summ_of_botts = [0]*N
 
 #The different colors used to color the bars
-colors = ['#cc0000', '#cc3300', '#ffcc00', '#009900',
+colors = ['#cc0000', '#ff7700', '#ffcc00', '#009900',
 		  '#006666', '#0066ff', '#0000cc', '#663399']
 
 #Stores all the bars. Used in legend generation
